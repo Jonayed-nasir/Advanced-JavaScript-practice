@@ -32,18 +32,18 @@
 
 // !🧪 ১️⃣ Shorthand Property Example:js￼Copy code
 
-const calculator = {
-  add(a, b) {
-    return a + b;
-  },
-};
+// const calculator = {
+//   add(a, b) {
+//     return a + b;
+//   },
+// };
 
-console.log(calculator.add(1.5, 9));
+// console.log(calculator.add(1.5, 9));
 
-// আগে লিখতে হতো:
+// // আগে লিখতে হতো:
 
-const calculator1 = {
-  add: function (a, b) {
-    return a + b;
-  },
-};
+// const calculator1 = {
+//   add: function (a, b) {
+//     return a + b;
+//   },
+// };
