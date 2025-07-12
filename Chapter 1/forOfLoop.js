@@ -37,7 +37,6 @@
 //   console.log(userNmae, info);
 // }
 
-
 // const ratings = [
 //   {user: 'John',score: 3},
 //   {user: 'Jane',score: 4},
@@ -51,3 +50,17 @@
 // }
 
 // console.log(`Total scores: ${sum}`)
+
+// let name = 'Jonayed'
+// for (let n of name){
+//   console.log(n)
+// }
+
+let names = 'Programming';
+
+for (let name of names) {
+  console.log(name);
+}
+for (let letter of names) {
+  console.log(`Letter: ${letter}`);
+}
