@@ -54,3 +54,14 @@
 // downloadFile('data.json', () => {
 //   console.log('New processing the file...');
 // });
+
+// 🧪 Practice Challenge:
+
+// function learn(name, callback) {
+//   console.log(`Learning ${name}`);
+//   callback();
+// }
+
+// learn('JavaScript', function () {
+//   console.log('From Programming Hero!');
+// });
