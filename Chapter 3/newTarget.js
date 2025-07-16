@@ -20,3 +20,25 @@
 
 // const u1 = User('Jonayed')
 // console.log(u1.name)
+
+// class Base {
+//   constructor() {
+//     console.log(new.target.name);
+//   }
+// }
+
+// class Child extends Base {}
+
+// new Base();
+// new Child();
+
+// function account() {
+//   if (!new.target) {
+//     throw new Error('account must be called with new');
+//   }
+
+//   console.log('Account created');
+// }
+
+// new account();
+// account();
